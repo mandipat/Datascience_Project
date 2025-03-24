@@ -23,7 +23,7 @@ class DataTransformationConfig:
 
 @dataclass
 class ModelTrainerConfig:
-    root_dir: Path
+    root_dir:Path
     train_data_path: Path
     test_data_path: Path
     model_name: str
