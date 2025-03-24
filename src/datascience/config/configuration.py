@@ -54,6 +54,7 @@ class ConfigurationManager:
         )
         return data_transformation_config
     
+
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
         params = self.params.ElasticNet
@@ -88,7 +89,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/krishnaik06/datascienceproject.mlflow"
+            mlflow_uri="https://dagshub.com/mandipat/Datascience_Project.mlflow"
 
 
         )
